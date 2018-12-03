@@ -293,7 +293,7 @@ var map;
         var marker = new google.maps.Marker({
            position:props.coord,
            map: map,
-           icon:'/Users/markwild/Desktop/Projects/Public_Art_Project/imgs/markerSprayCan.svg'
+           icon:'imgs/markerSprayCan.svg'
       });
 
         //check content
