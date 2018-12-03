@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<!--
+         _       _    _    _        _
+        / /\    / /\ /\ \ /\ \     /\_\
+       / / /   / / //  \ \\ \ \   / / /
+      / /_/   / / // /\ \ \\ \ \_/ / /
+     / /\ \__/ / // / /\ \_\\ \___/ /
+    / /\ \___\/ // /_/_ \/_/ \ \ \_/
+   / / /\/___/ // /____/\     \ \ \
+  / / /   / / // /\____\/      \ \ \
+ / / /   / / // / /______       \ \ \
+/ / /   / / // / /_______\       \ \_\
+\/_/    \/_/ \/__________/        \/_/
+
+
+      "Hey" It says.
+
+      Welcome, if you're here to check out this source code you rock.
+
+      <==================================>
+
+      Feel free to say hey and drop me an email @ MWILDDEV@GMAIL.COM
+-->
+<head>
+	    <title>Public Art</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="description" content="Public Art Map of the Bay Area">
+    <meta name="author" content="Mark Wild">
+	<script type="text/javascript" src="map.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="map.css">
+	<link href="https://fonts.googleapis.com/css?family=Asap:400,700|Lobster" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="/Users/markwild/Desktop/Projects/Public_Art_Project/imgs/Spray.ico"/>
+
+</head>
+
+<body>
+    <!--map -->
+    <div id="map"></div>
+    <!--container -->
+    <div id="container">
+
+    	<h1>Public Art Map</h1>
+
+         <p id="subheading">(For best results, use full screen in the top right corner)</p>
+        <!--content -->
+    	<div id="content">
+    		<p class="text">
+                The idea for this project began on my commute to work. I was passing through the twisting and winding alleyways of Oakland California only to be acquainted with often charming and inspiring street art at seemingly every corner. The purpose of this site is to document some of my favorite public art pieces throughout the San Francisco and the greater East Bay area. The technologies I am utilizing are Google Maps Api v3, jQuery, and Javascript. With the constant movement and change of public art it was difficult to pinpoint the exact coordinates, often google maps would show a different piece from months to years ago so the locations are approximate. I drew location data and photos mostly from <a href="https://streetartsf.com">streetartsf.com</a>, and <a href="https://localwiki.org/oakland">localwiki.org/oakland</a>.</p>
+
+                <!-- The idea for this project began on my commute to work. I was passing through the twisting and winding alleyways of Oakland California only to be acquainted with often charming and inspiring pieces at seemingly every corner. The purpose of this site is to document some of my favorite street art throughout the San Francisco and the greater East Bay area. The technologies I am utilizing are Google Maps Api v3, jQuery, and Javascript. With the constant movement and change of public art it was difficult to pinpoint the exact coordinates, often google maps would show a different piece from months to years ago so the locations are approximate. I drew location data and photos mostly from <a href="https://streetartsf.com">streetartsf.com</a>, which documents current street art, as well as from a variety of other sources like <a href="https://localwiki.org/oakland">localwiki.org/oakland</a>.</p> -->
+
+            <h3> Observations </h3>
+
+
+			<p class="text">
+                In my observations I found that the artwork often preserved local memories by echoing the culture, values, and struggles of the surrounding neighborhoods. In Chinatown it was common to see Chinese characters mixed in with other asian imagery. In the tenderloin there were pieces relating to drugs, and crime. Around Haight street you would see respects to musical artist, tributes to the summer of love and the 60’s bohemian culture. I found that large commissioned pieces were in denser city centers, such as uptown Oakland. Whereas alleys were a perfect canvas for anonymous artist.
+
+            </p>
+
+            <p id="credit">Website Created by Mark Wild</p>
+
+            <a href="https://github.com/MorkWood2/Public_Art_Map"><img id = "github" src="/Users/markwild/Desktop/Projects/Public_Art_Project/imgs/githubIcon.svg
+							"></a>
+
+    	</div>
+    </div>
+    <!--footer -->
+    <div id="footer"></div>
+
+
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyClsfvSYqBj-F5efWF5IPrAMOnHungt6vo&callback=initMap"
+		  type="text/javascript"></script>
+  </body>
+</html>

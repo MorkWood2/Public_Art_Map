@@ -1,0 +1,229 @@
+a:link {
+        color: #4adbc8;
+        background-color: transparent;
+        text-decoration: none;
+        }
+
+
+a:hover {
+-webkit-animation:rainbow 1s infinite;
+-ms-animation:rainbow 1s infinite;
+-o-animation:rainbow 1s infinite;
+animation:rainbow 1s infinite;
+}
+@-webkit-keyframes rainbow {
+0% {color: #ff0000;}
+10% {color: #ff8000;}
+20% {color: #ffff00;}
+30% {color: #80ff00;}
+40% {color: #00ff00;}
+50% {color: #00ff80;}
+60% {color: #00ffff;}
+70% {color: #0080ff;}
+80% {color: #0000ff;}
+90% {color: #8000ff;}
+100% {color: #ff0080;}
+}
+@-ms-keyframes rainbow {
+0% {color: #ff0000;}
+10% {color: #ff8000;}
+20% {color: #ffff00;}
+30% {color: #80ff00;}
+40% {color: #00ff00;}
+50% {color: #00ff80;}
+60% {color: #00ffff;}
+70% {color: #0080ff;}
+80% {color: #0000ff;}
+90% {color: #8000ff;}
+100% {color: #ff0080;}
+}
+@-o-keyframes rainbow {
+0% {color: #ff0000;}
+10% {color: #ff8000;}
+20% {color: #ffff00;}
+30% {color: #80ff00;}
+40% {color: #00ff00;}
+50% {color: #00ff80;}
+60% {color: #00ffff;}
+70% {color: #0080ff;}
+80% {color: #0000ff;}
+90% {color: #8000ff;}
+100% {color: #ff0080;}
+}
+@keyframes rainbow {
+0% {color: #ff0000;}
+10% {color: #ff8000;}
+20% {color: #ffff00;}
+30% {color: #80ff00;}
+40% {color: #00ff00;}
+50% {color: #00ff80;}
+60% {color: #00ffff;}
+70% {color: #0080ff;}
+80% {color: #0000ff;}
+90% {color: #8000ff;}
+100% {color: #ff0080;}
+}
+
+
+a:visited {
+        color: #4adbc8;
+        background-color: transparent;
+        text-decoration: none;
+        }
+
+
+html, body {
+        height: 100%;
+         width: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+
+h1{
+         font-family: 'Lobster', cursive;
+         font-size: 30px;
+         color: #F82370;
+         text-align: center;
+         margin: 70px auto 10px auto;
+      }
+
+
+h3{
+        font-family: 'Asap', sans-serif;
+        text-transform: uppercase;
+         font-size: 18px;
+         font-weight:700;
+         letter-spacing: 6px;
+         color: #F82370;
+         text-align: center;
+         margin: 70px auto 0px auto;
+      }
+
+
+img{
+        height: 283px;
+        }
+
+
+p{
+  color:#bcbaba;
+   font-family: 'Asap', sans-serif;
+   font-size: 20px;
+
+   margin: 0;
+        }
+p.text{
+     padding: 40px 0 0 0;
+}
+
+#content{
+      font-size: 15px;
+      margin: 0 5% auto 5%;
+      }
+
+
+#container{
+      background: #17263c;
+      width: 100%;
+      padding-bottom: 75px;
+      border-top: 4px solid #6B1946;
+      }
+
+
+#credit{
+      position: relative;
+      font-size: 10px;
+      font-family: 'Asap', sans-serif;
+      text-align: right;
+      top: 124px;
+      color: #919191;
+      left: 28px;
+     }
+
+
+#footer{
+      width: 100%;
+      background: #4adbc8;
+      padding:5px 0 5px 0;
+    }
+
+
+#github{
+        width: 50px;
+        margin: 0 auto;
+        top:50px;
+        position: relative;
+        display: inline-block;
+        height: 50px;
+     }
+
+
+#github:hover {
+        background:#fce992 ;
+        border-radius: 50%;
+        overflow: hidden;
+
+
+
+      }
+
+
+#map {
+        height: 80%;
+      }
+
+
+#subheading{
+        text-align: center;
+        font-family: 'Asap', sans-serif;
+        font-size: 11px;
+        color: #405699;
+      }
+
+
+.gm-style .gm-style-iw {
+            background-color: #252525 !important;
+            top: 0 !important;
+            left: 0 !important;
+            width: 100% !important;
+            height: 100% !important;
+            min-height: 330px !important;
+            padding-top: 30px;
+            display: block !important;
+            text-align: center !important;
+            border: 2px solid #4adbc8 ;
+         }
+
+         /*style the paragraph tag*/
+.gm-style .gm-style-iw #google-popup p{
+            padding: 10px;
+            color:#4adbc8;
+         }
+
+
+        /*style the annoying little arrow at the bottom*/
+.gm-style div div div div div div div div {
+            /* background-color: #fffcfc !important; */
+            padding: 0;
+            margin: 0;
+            padding: 0;
+            top: 0;
+            color: #fff;
+            font-size: 16px;
+        }
+
+        /*style the link*/
+.gm-style div div div div div div div div a {
+            color: #f1f1f1;
+            font-weight: bold;
+        }
+
+
+.text{
+      color: #405699;
+      font-family: 'Asap', sans-serif;
+      line-height: 25px;
+      letter-spacing: 1px;
+      text-align: justify;
+     }
