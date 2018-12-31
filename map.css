@@ -177,6 +177,7 @@ p.text{
             top: 0 !important;
             left: 0 !important;
             width: 100% !important;
+            min-height: 330px !important;
             padding-top: 30px;
             display: block !important;
             text-align: center !important;
