@@ -183,7 +183,15 @@ p.text{
             text-align: center !important;
             border: 2px solid #4adbc8 ;
          }
+  .gm-style .gm-style-iw-d {
+             box-sizing: border-box;
+             overflow: hidden !important;
+         }
 
+   .gm-ui-hover-effect {
+           opacity: .6;
+           background: #4adbc8 !important;
+       }
          /*style the paragraph tag*/
 .gm-style .gm-style-iw #google-popup p{
             padding: 10px;
@@ -198,21 +206,7 @@ p.text{
   background: #4adbc8 !important;
   right: -2px !important;
 }
-        /*style the annoying little arrow at the bottom*/
-/* .gm-style div div div div div div div div {
-            padding: 0;
-            margin: 0;
-            padding: 0;
-            top: 0;
-            color: #fff;
-            font-size: 16px;
-        } */
 
-        /*style the link*/
-/* .gm-style div div div div div div div div a {
-            color: #f1f1f1;
-            font-weight: bold;
-        } */
 
 .text{
       color: #405699;
