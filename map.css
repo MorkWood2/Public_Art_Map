@@ -196,7 +196,7 @@ p.text{
            background: #4adbc8 !important;
        }
          /*style the paragraph tag*/
-.gm-style .gm-style-iw #google-popup p{
+/* .gm-style .gm-style-iw #google-popup p{
             padding: 10px;
             color:#4adbc8;
          }
